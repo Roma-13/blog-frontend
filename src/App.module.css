@@ -1,0 +1,35 @@
+.container {
+    padding: 20px;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  

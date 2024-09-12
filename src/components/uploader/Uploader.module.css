@@ -1,0 +1,87 @@
+
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nameInput,
+.textInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.nameInput {
+  font-size: 16px;
+}
+
+.textInput {
+  font-size: 14px;
+  height: 100px;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+.previewImage {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.previewsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.reg {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.reg:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.successMessage {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+
+}

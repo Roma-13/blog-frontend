@@ -1,0 +1,37 @@
+
+.imageContainer {
+  padding: 20px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  width: calc(33.333% - 10px); 
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+}
+
+.cardContent {
+  padding: 10px;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+p {
+  margin: 5px 0 0;
+  color: #666;
+}
